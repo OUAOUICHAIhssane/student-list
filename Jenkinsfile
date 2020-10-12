@@ -19,8 +19,9 @@ pipeline {
    stage('Push Docker Image') {
      steps{
         sh "docker login -u ihssane1 -p INPT1967!"
-          }
+         
         sh 'docker push ihssane1/studentlistimage'
+     }
    }   
 
    }
