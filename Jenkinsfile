@@ -11,7 +11,7 @@ pipeline {
          steps {
             sh(script: """
                cd simple_api/
-               docker build -t ihssaneoua/studentlistimage .
+               docker build -t ihssane1/studentlistimage .
                cd ..
             """)
          }
